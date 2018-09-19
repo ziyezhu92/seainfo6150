@@ -3,10 +3,10 @@
 Repository of notes and in-class practice files.
 
 # Forking class repo and setting upstream remote
-1. Install git
-2. Go to https://github.com/aprilbingham-neu/seainfo6150
+1. Install git: https://git-scm.com/downloads
+2. Go to the git repo for this class: https://github.com/aprilbingham-neu/seainfo6150
 3. Click “Fork” to create your copy of the repo
-4. Click “Clone or download”
+4. Click “Clone or download” to get a link to copy your fork on your computer
 5. Click “Use HTTPS”
 6. Copy link
 7. Open command line and use these commands
