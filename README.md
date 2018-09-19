@@ -1,2 +1,3 @@
-# seainfo6150
-Web Design and User Experience Engineering
+# INFO6150
+
+Repository of notes and in-class practice files
