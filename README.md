@@ -29,5 +29,5 @@ git push origin master
 # Pulling updates from main repo
 ```
 cd seainfo6150
-git pull upstream
+git pull upstream master
 ```
