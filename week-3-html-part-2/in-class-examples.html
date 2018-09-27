@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 3: HTML, part 2</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <hgroup>
+          <h1>This is the h1</h1>
+          <h2>this is a subheader</h2>
+        </hgroup>
+
+        <p>this is a paragraph of explanation</p>
+      </header>
+
+      <table border="1">
+        <caption>This is my table</caption>
+        <colgroup>
+            <col span="2" class="related1">
+            <col span="2" class="related2">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+            <th>column 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2" rowspan="2">row 1 col 1</td>
+            <td>row 1 col 3</td>
+            <td>row 1 col 4</td>
+          </tr>
+          <tr>
+            <td>row 2 col 3</td>
+            <td>row 2 col 4</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>footer row col 1</td>
+            <td>footer row col 2</td>
+            <td>footer row col 3</td>
+            <td>footer row col 4</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend>Name</legend>
+          <label for="nameinput">
+            Name
+            <input type="text" id="nameinput" name="NameInput" value="">
+          </label>
+
+          <label for="fooinput">
+            Better foo checkbox
+            <input type="checkbox" id="fooinput" name="FooInput" value="">
+          </label>
+          <p>
+            Foo checkbox
+          <input type="checkbox" name="" value="">
+
+        </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Inputs</legend>
+
+          <label for="button-input">
+            Button input
+            <input onclick="alert('hi');" type="button" id="button-input" name="ButtonInput" value="foo">
+          </label>
+          <br>
+          <label for="text-input">
+            text input
+            <input autocomplete="on" type="text" id="text-input" name="TextInput" value="text input value">
+          </label>
+          <label for="number-input">
+            number input
+            <input readonly type="number" id="number-input" name="NumberInput" value="100">
+          </label>
+          <br>
+          <label for="range-input">
+            range input
+            <input type="range" id="range-input" name="RangeInput" min="5" max="5000" value="300" steps="25">
+          </label>
+          <br>
+          <label for="password-input">
+            password input
+            <input type="password" id="password-input" name="Password">
+          </label>
+          <br>
+          <label for="checkbox-input">
+            Checkbox input
+            <label for="checkbox1val1">
+              <input type="checkbox" id="checkbox1val1" name="checkbox 1" value="1"> 1
+            </label>
+            <label for="checkbox1val2">
+              <input type="checkbox" id="checkbox1val2" name="checkbox 1" value="2"> 2
+            </label>
+            <label for="checkbox1val3">
+              <input type="checkbox" id="checkbox1val3" name="checkbox 1" value="3"> 3
+            </label>
+          </label>
+          <br>
+          <label for="radio-input">
+            Radio input
+            <label for="radio1val1">
+              <input type="radio" id="radio1val1" name="radio 1" value="1"> 1
+            </label>
+            <label for="radio1val2">
+              <input type="radio" id="radio1val2" name="radio 1" value="2"> 2
+            </label>
+            <label for="radio1val3">
+              <input type="radio" id="radio1val3" name="radio 1" value="3"> 3
+            </label>
+          </label>
+
+
+          <textarea name="name" rows="8" cols="80">
+            text here
+          </textarea>
+
+          <label for="selectinput">
+            <select class="" name="SelectInput" id="selectinput" multiple>
+              <optgroup label="group1">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3" selected>Option 3</option>
+                <option value="option4">Option 4</option>
+              </optgroup>
+              <optgroup label="group2">
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+                <option value="option5" selected>Option 5</option>
+                <option value="option6">Option 6</option>
+              </optgroup>
+
+            </select>
+          </label>
+
+          <button type="button" name="button" value="foo">
+            This is a clickable button
+
+          </button>
+        </fieldset>
+
+        <fieldset data-foo-bar="value">
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      <iframe src="http://www.google.com" width="300" height="300"></iframe>
+
+
+      <figure>
+        <img src="frog.jpg" alt="frog" width="50">
+        <figcaption>Frog 1</figcaption>
+      </figure>
+
+
+      <article class="">
+        <header>
+          this is my article
+          <nav><a href="frog.jpg">link to frog picture</a></nav>
+        </header>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <h2>next level of header h2</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+        <footer>
+          <time>date</time>
+          <cite>Author name</cite>
+        </footer>
+      </article>
+      <h3>h3 header</h3>
+      <h2>h2 header again</h2>
+      <h4>h4 header</h4>
+      <h5>h5 header</h5>
+      <h6>h6 <span>header</span></h6>
+
+      <ul>
+        <li>
+          Here is one thing
+          <ul>
+            <li>nested level 1</li>
+          </ul>
+        </li>
+        <li>here is another thing</li>
+        <li>here is a third thing</li>
+      </ul>
+
+      <ol>
+        <li>
+          Here is one thing
+          <ol>
+            <li>nested level 1
+              <ol>
+                <li> nested level 2</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li>here is another thing</li>
+        <li>here is a third thing</li>
+      </ol>
+
+      <ol>
+        <li>
+          Here is one thing
+          <ul>
+            <li>thing one</li>
+            <li>thing two</li>
+            <li>thing three</li>
+          </ul>
+        </li>
+        <li>here is another thing</li>
+        <li>here is a third thing</li>
+      </ol>
+
+
+      <dl>
+        <dt>Here's a term</dt>
+        <dd>Here's the definition</dd>
+
+        <dt>Here's another term</dt>
+        <dd>Here's another definition</dd>
+
+        <dt>Here's a third term</dt>
+        <dd>Here's the third definition</dd>
+
+      </dl>
+
+
+
+
+      <figure>
+        <img src="https://www.cbreptile.com/wp-content/uploads/2017/08/red-eyed-tree-frog.jpg" alt="frog"  width="50">
+        <figcaption>frog 2</figcaption>
+      </figure>
+
+
+
+    </main>
+  </body>
+</html>
