@@ -1,0 +1,116 @@
+div {
+  background-color: #fab3cd;
+  color: white;
+  border: 1px solid blue;
+  border-width: 1em;
+  padding: 20px 50px 100px 50px;
+  margin: 20px 50px 100px 50px;
+}
+
+#id-div {
+  background-color: blue;
+  color: orange;
+  border: 20px solid purple;
+  border-left-color: blue;
+  border-right-color: yellow;
+  border-bottom-color: red;
+  border-bottom-color: green;
+  padding: 50px;
+}
+
+.text {
+  color: orange;
+}
+.border {
+  border: 1px solid purple;
+}
+.padding {
+  padding: 50px;
+}
+.background {
+  background-color: blue;
+}
+
+.text.border.padding.background {
+  padding: 100px;
+}
+
+[data-attribute="foo"] {
+}
+
+[data-attribute="foo"] > ul > li:nth-of-type(2) {
+  background: brown;
+}
+
+
+li {
+  background: black !important;
+}
+li.list-item {
+  background: gray;
+}
+.list-item {
+  background: red;
+}
+#bar li {
+  background: blue;
+}
+#bar li:nth-of-type(2) {
+  background: green;
+}
+
+
+#parent {
+  padding: 50px 0;
+}
+#parent-narrow {
+  padding: 50px 0;
+  width: 50%;
+}
+
+#parent-narrow > div,
+#parent > div {
+  margin: 0;
+  padding: 0;
+}
+
+.px {
+}
+
+.percent {
+  width: 50%;
+}
+
+.em {
+  font-size: .5em;
+  width: 10em;
+}
+
+.rem {
+  width: .5rem;
+}
+
+.vw {
+  width: 50vw;
+}
+
+.vh {
+  width: 50vh;
+  line-height: 5;
+}
+
+.invisible {
+  visibility: hidden;
+}
+.visible {
+  visibility: inherit;
+}
+
+span {
+  visibility: hidden;
+  display: none;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
