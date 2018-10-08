@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 5: CSS, part 2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <p id="uppercase">uppercase</p>
+    <p id="lowercase">lowercase</p>
+    <p id="capitalize">capitalize</p>
+
+    <section id="stacking">
+      <!--  stacking context -->
+      <div id="redparent">
+        <span id="red">Red</span>
+      </div>
+
+      <div id="greenparent">
+        <span id="green">Green</span>
+      </div>
+
+      <div id="blueparent">
+        <span id="blue">Blue</span>
+      </div>
+      <!--  end stacking context -->
+    </section>
+
+    <!--  flex -->
+    <section id="flex">
+      <div id="flex-child-1" class="flex-child">flexed child 1</div>
+      <div id="flex-child-2" class="flex-child">flexed child 2</div>
+      <div id="flex-child-3" class="flex-child">flexed child 3</div>
+      <div id="flex-child-4" class="flex-child">flexed child 4</div>
+      <div id="flex-child-5" class="flex-child">flexed child 5</div>
+    </section>
+
+  </body>
+</html>
