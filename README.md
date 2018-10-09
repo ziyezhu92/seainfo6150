@@ -1,4 +1,5 @@
 # INFO6150
+Class Syllabus: https://docs.google.com/document/d/16Hy7E2KatczXEOLyoD9mkvXPskL3-3vD1f4jLBxXppo/edit?usp=sharing
 
 Repository of notes and in-class practice files.
 
