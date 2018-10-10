@@ -1,6 +1,15 @@
 # INFO6150
 Class Syllabus: https://docs.google.com/document/d/16Hy7E2KatczXEOLyoD9mkvXPskL3-3vD1f4jLBxXppo/edit?usp=sharing
 
+Class notes:
+
+Week 1 -- Overview of web, HTML and CSS: https://drive.google.com/open?id=183GyHTHopPpp8_eapuzyDj5hvTFOKwdMxZlinZ_Q9a0
+Week 2 -- HTML, part 1: https://drive.google.com/open?id=1kg9Vdc4yLpA5fJMJ5sHcriZ1J7HuqQSIRBz3UpOrB1c
+Week 3 -- HTML, part 2: https://drive.google.com/open?id=1OUOAsgpek7-4xVTdcidWQ4I8tticJJaUBRb24T7JIBw
+Week 4 -- CSS, part 1: https://drive.google.com/open?id=1a2Nnvs4dnRQ-_1mR_mMCzRJJwkLgimKh5OkqxcjMNPE
+Week 5 -- CSS, part 2: https://drive.google.com/open?id=1DDuwy6L9xuBG4kpLDK8F-L2XZqsVkhcRKjRvSbNNCRI
+
+
 Repository of notes and in-class practice files.
 
 # Forking class repo and setting upstream remote
