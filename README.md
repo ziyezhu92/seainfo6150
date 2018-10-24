@@ -8,6 +8,7 @@ Class notes:
 3. HTML, part 2: https://drive.google.com/open?id=1OUOAsgpek7-4xVTdcidWQ4I8tticJJaUBRb24T7JIBw
 4. CSS, part 1: https://drive.google.com/open?id=1a2Nnvs4dnRQ-_1mR_mMCzRJJwkLgimKh5OkqxcjMNPE
 5. CSS, part 2: https://drive.google.com/open?id=1DDuwy6L9xuBG4kpLDK8F-L2XZqsVkhcRKjRvSbNNCRI
+7. Responsive layouts: https://drive.google.com/open?id=1qYERTKMIPTlHJ7yKko3ylIsRpXwdpbRZUmAPtw2xkF0
 
 
 Repository of notes and in-class practice files.

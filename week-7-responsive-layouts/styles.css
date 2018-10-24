@@ -1,5 +1,5 @@
-body {
-  background: #ccc; 
+/* body {
+  background: #ccc;
 }
 
 @media (min-width: 320px) {
@@ -17,11 +17,11 @@ body {
     background: #00c;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1500px){
   body {
-    background: #ccc;
+    background: #000;
   }
-}
+} */
 
 @media print {
   /* print style sheets go here */
