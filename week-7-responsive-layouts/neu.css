@@ -188,7 +188,7 @@ html {
 
 #program-offerings {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin-bottom: 50px;
 }
@@ -289,11 +289,8 @@ html {
     position: static;
   }
 
-  #program-offerings {
-    flex-flow: column wrap;
-  }
-  #program-offerings section {
-    flex: 1;
+  #program-offerings > section {
+    flex: 0 0 50%;
   }
 
   #extracurricular {

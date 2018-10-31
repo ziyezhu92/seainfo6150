@@ -1,0 +1,36 @@
+
+%baz {
+  color: yellow;
+}
+
+@mixin border($width) {
+  border: $width solid black;
+}
+
+/* SCSS */
+.example {
+  .foo {
+    @extend %baz;
+    @mixin border(1px);
+
+    .bar {
+      @extend %baz;
+      &:hover {
+        background: $red;
+      }
+    }
+  }
+}
+
+/* compiles to */
+.example .foo,
+.example .foo .bar {
+  color: yellow;
+}
+.example .foo {
+  color: yellow
+  border: 1px solid #000;
+}
+.example .foo .bar:hover {
+  background: #c00;
+}

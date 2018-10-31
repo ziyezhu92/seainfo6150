@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>jQuery Example</title>
+    <link rel="stylesheet" href="jquery.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        // alert('ready');
+
+        // $("li").each(function() {
+        //   console.log($(this));
+        //   console.log(this);
+        // })
+        //
+        // console.log($("li").length);
+        $("li").each(function() {
+          $(this).addClass("traversed");
+        });
+
+        $("#newContentButton").click(function() {
+          let numNew = $(".new-content").length;
+          $(`<p class='new-content'>New content ${++numNew}</p>`).appendTo('#main-content');
+
+          if(numNew === 7) {
+            $(this).attr("disabled", "disabled");
+            $("#main-content").addClass("maxReached");
+          }
+
+          // This will only work on new-content items already existing in the dom when pages is loaded
+          // move inside click handler to affect added content ^^
+          $(".new-content").click(function() {
+            $(this).remove();
+          });
+        });
+
+
+
+        $("#main-content a").click(function(e) {
+          e.preventDefault();
+          $('.lastClicked').removeClass('lastClicked');
+          $(this).addClass('lastClicked');
+        });
+
+      });
+    </script>
+  </head>
+  <body onload=>
+    <main id="main-content">
+      <button id="newContentButton">Click me for new content</button>
+      <ul>
+        <li><a href="jquery-example.html">Foo</a></li>
+        <li><a href="jquery-example.html">Bar</a></li>
+        <li><a href="jquery-example.html">Baz</a></li>
+        <li><a href="jquery-example.html">Wow</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
