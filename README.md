@@ -3,15 +3,15 @@ Class Syllabus: https://docs.google.com/document/d/16Hy7E2KatczXEOLyoD9mkvXPskL3
 
 Class notes:
 
-1. Overview of web, HTML and CSS: https://drive.google.com/open?id=183GyHTHopPpp8_eapuzyDj5hvTFOKwdMxZlinZ_Q9a0
-2. HTML, part 1: https://drive.google.com/open?id=1kg9Vdc4yLpA5fJMJ5sHcriZ1J7HuqQSIRBz3UpOrB1c
-3. HTML, part 2: https://drive.google.com/open?id=1OUOAsgpek7-4xVTdcidWQ4I8tticJJaUBRb24T7JIBw
-4. CSS, part 1: https://drive.google.com/open?id=1a2Nnvs4dnRQ-_1mR_mMCzRJJwkLgimKh5OkqxcjMNPE
-5. CSS, part 2: https://drive.google.com/open?id=1DDuwy6L9xuBG4kpLDK8F-L2XZqsVkhcRKjRvSbNNCRI
-7. Responsive layouts: https://docs.google.com/document/d/1qYERTKMIPTlHJ7yKko3ylIsRpXwdpbRZUmAPtw2xkF0/edit?usp=sharing
-8. HTML and CSS for web apps:
+* Week 1: Overview of web, HTML and CSS: https://drive.google.com/open?id=183GyHTHopPpp8_eapuzyDj5hvTFOKwdMxZlinZ_Q9a0
+* Week 2: HTML, part 1: https://drive.google.com/open?id=1kg9Vdc4yLpA5fJMJ5sHcriZ1J7HuqQSIRBz3UpOrB1c
+* Week 3: HTML, part 2: https://drive.google.com/open?id=1OUOAsgpek7-4xVTdcidWQ4I8tticJJaUBRb24T7JIBw
+* Week 4: CSS, part 1: https://drive.google.com/open?id=1a2Nnvs4dnRQ-_1mR_mMCzRJJwkLgimKh5OkqxcjMNPE
+* Week 5: CSS, part 2: https://drive.google.com/open?id=1DDuwy6L9xuBG4kpLDK8F-L2XZqsVkhcRKjRvSbNNCRI
+* Week 7: Responsive layouts: https://docs.google.com/document/d/1qYERTKMIPTlHJ7yKko3ylIsRpXwdpbRZUmAPtw2xkF0/edit?usp=sharing
+* Week 8: HTML and CSS for web apps:
 https://docs.google.com/document/d/1WzM3DMNr09TBIymz66hbvgkX4d53_yQ2LIiufhaBmYg/edit?usp=sharing
-8. Git repo for example react web app
+* Week 8: Git repo for example react web app
 https://github.com/aprilbingham-neu/seainfo6150-webapp
 
 Repository of notes and in-class practice files.
