@@ -13,6 +13,8 @@ Class notes:
 https://docs.google.com/document/d/1WzM3DMNr09TBIymz66hbvgkX4d53_yQ2LIiufhaBmYg/edit?usp=sharing
 * Week 8: Git repo for example react web app
 https://github.com/aprilbingham-neu/seainfo6150-webapp
+* Week 10: DOM
+https://docs.google.com/document/d/1KGx6I1CJCUdzpUMnMXhZzyrS5ynLTTNogys2H_jMtis/edit?usp=sharing
 
 Repository of notes and in-class practice files.
 
