@@ -15,6 +15,8 @@ https://docs.google.com/document/d/1WzM3DMNr09TBIymz66hbvgkX4d53_yQ2LIiufhaBmYg/
 https://github.com/aprilbingham-neu/seainfo6150-webapp
 * Week 10: DOM
 https://docs.google.com/document/d/1KGx6I1CJCUdzpUMnMXhZzyrS5ynLTTNogys2H_jMtis/edit?usp=sharing
+* Week 12: Usability and accessibility
+https://docs.google.com/document/d/1dWuZNRGW0AsSa84-BbVyNtxGA7CaehF_qrnbsm6gX40/edit?usp=sharing
 
 Repository of notes and in-class practice files.
 
