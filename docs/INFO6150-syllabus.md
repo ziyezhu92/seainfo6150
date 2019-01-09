@@ -30,7 +30,7 @@ I expect that, as a student of this class, you will adhere to the academic integ
   - <https://www.sublimetext.com/>
   - <https://code.visualstudio.com/>
 
-##Class Schedule (subject to change!)
+## Class Schedule (subject to change!)
 
 <table>
 <thead>
@@ -43,7 +43,7 @@ I expect that, as a student of this class, you will adhere to the academic integ
 <tbody>
 <tr>
 <td>
-**January 9, 2019**
+January 9, 2019
 
 Week 1
 
@@ -62,20 +62,26 @@ Usability & accessibility
 </td>
 <td>
 Send me an email with 4 different websites:
+
 - 1 you think is usable
 - 1 you think is not usable
 - 1 you think is accessible
 - 1 you think is not accessible
+
 Explain your choices with principles discussed in lecture
 
 Fork class git repo
+
 Fork class react app repo
+
 Download IDE for classwork
 </tr>
 <tr>
 <td>
-**January 16, 2019**
+January 16, 2019
+
 Week 2
+
 Planning and design: wireframing, IA & design mocks
 </td>
 <td>
@@ -98,8 +104,10 @@ Choose a website that reflects a feeling (“sophisticated”, “bold”, etc.)
 </tr>
 <tr>
 <td>
-**January 23, 2019**
+January 23, 2019
+
 Week 3
+
 HTML & JS with React
 </td>
 <td>
@@ -134,8 +142,10 @@ Create components in react app with HTML elements, make sure your HTML is valida
 </tr>
 <tr>
 <td>
-**January 30, 2019**
+January 30, 2019
+
 Week 4
+
 HTML & JS with React
 </td>
 <td>
@@ -149,8 +159,10 @@ Exam 1 due
 </tr>
 <tr>
 <td>
-**February 6, 2019**
+February 6, 2019
+
 Week 5
+
 Presentation: CSS
 </td>
 <td>
@@ -176,8 +188,10 @@ Take the components from week 3 & 4 and style them per requirements, make sure y
 </tr>
 <tr>
 <td>
-**February 13, 2019**
+February 13, 2019
+
 Week 6
+
 Presentation: Images for web
 </td>
 <td>
@@ -194,8 +208,10 @@ Take the page from week 5 and add images per requirements. (tbd)
 </tr>
 <tr>
 <td>
-**February 20, 2019**
+February 20, 2019
+
 Week 7
+
 Presentation: Responsive & adaptive layouts
 </td>
 <td>
@@ -214,8 +230,10 @@ Take the page from week 6 and make it responsive per requirements. (tbd)
 </tr>
 <tr>
 <td>
-**February 27, 2019**
+February 27, 2019
+
 Week 8
+
 Presentation: Responsive & adaptive layouts
 </td>
 <td>
@@ -229,7 +247,8 @@ Exam 2 due
 </tr>
 <tr>
 <td>
-**March 6, 2019**
+March 6, 2019
+
 No Class
 </td>
 <td></td>
@@ -239,8 +258,10 @@ Spring break, no class this week.
 </tr>
 <tr>
 <td>
-**March 13, 2019**
+March 13, 2019
+
 Week 9
+
 Testing & performance
 </td>
 <td>
@@ -258,8 +279,10 @@ Split into teams for team projects
 </tr>
 <tr>
 <td>
-**March 20, 2019**
+March 20, 2019
+
 Week 10
+
 Team projects, week 1
 </td>
 <td>
@@ -271,8 +294,10 @@ Based on product requirements, work on wireframes, user flows, IA sitemap & UI d
 </tr>
 <tr>
 <td>
-**March 27, 2019**
+March 27, 2019
+
 Week 11
+
 Team projects, week 2
 </td>
 <td>
@@ -284,8 +309,10 @@ User testing and refine designs based on results
 </tr>
 <tr>
 <td>
-**April 3, 2019**
+April 3, 2019
+
 Week 12
+
 Team projects, week 3
 </td>
 <td>
@@ -297,8 +324,10 @@ Project implementation
 </tr>
 <tr>
 <td>
-**April 10, 2019**
+April 10, 2019
+
 Week 13
+
 Team projects, week 4
 </td>
 <td>
@@ -310,8 +339,10 @@ Project implementation
 </tr>
 <tr>
 <td>
-**April 17, 2019**
+April 17, 2019
+
 Week 14
+
 Team projects presentations
 </td>
 <td>
@@ -322,8 +353,10 @@ Final personal writeups due
 </tr>
 <tr>
 <td>
-**April 24, 2019**
+April 24, 2019
+
 Finals week
+
 No Class
 </td>
 <td></td>
