@@ -84,7 +84,7 @@ Fork class git repo (https://github.com/aprilbingham-neu/seainfo6150)
 
 Fork class react app repo (https://github.com/aprilbingham-neu/seainfo6150-webapp)
 
-Download IDE for classwork
+Download IDE/editor for classwork
 </tr>
 <tr>
 <td>
