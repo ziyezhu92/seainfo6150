@@ -50,15 +50,23 @@ Week 1
 Usability & accessibility
 </td>
 <td>
-  * Principles of usability
-  * Validation (html/css)
-  * Principles of accessibility
-  * Low vision/contrast, color blindness
-  * ADA
-  * Section 508
-  * ARIA
-  * tabindex
-  * Screen readers
+Principles of usability
+
+Validation (html/css)
+
+Principles of accessibility
+
+Low vision/contrast, color blindness
+
+ADA
+
+Section 508
+
+ARIA
+
+tabindex
+
+Screen readers
 </td>
 <td>
 Send me an email with 4 different websites:
@@ -85,18 +93,29 @@ Week 2
 Planning and design: wireframing, IA & design mocks
 </td>
 <td>
-  * Information architecture
-  * Product requirements
-  * Navigation
-  * Mobile first philosophy
-  * Progressive enhancement
-  * User flows
-  * Prototypes
-  * Design mocks
-  * Usability testing with wireframes
-  * Color theory
-  * “Look and feel”
-  * Things to consider at the design/planning stage
+Information architecture
+
+Product requirements
+
+Navigation
+
+Mobile first philosophy
+
+Progressive enhancement
+
+User flows
+
+Prototypes
+
+Design mocks
+
+Usability testing with wireframes
+
+Color theory
+
+“Look and feel”
+
+Things to consider at the design/planning stage
 </td>
 <td>
 Choose a website that reflects a feeling (“sophisticated”, “bold”, etc.) Email me an explanation of your choice with principles discussed in lecture, a wireframe of the homepage and an outline of the sitemap.
@@ -111,30 +130,53 @@ Week 3
 HTML & JS with React
 </td>
 <td>
-  * Overview of React
-  * Container components
-  * Functional components
-  * Statefulness
-  * Doctypes
-  * DOM
-  * Document parsing
-  * Brief overview of HTML
-  * Viewing HTML file in the browser
-  * Document outline
-  * html, head, meta
-  * Semantic html
-  * Sectioning blocks
-  * Body, main, div, section, p, span
-  * A
-  * Strong, em
-  * Ul, ol, dl
-  * Img
-  * H1 * H6
-  * Header, footer, aside, nav, article
-  * Figcaption, figure
-  * Tables
-  * Forms
-  * HTML best practices
+Overview of React
+
+Container components
+
+Functional components
+
+Statefulness
+
+Doctypes
+
+DOM
+
+Document parsing
+
+Brief overview of HTML
+
+Viewing HTML file in the browser
+
+Document outline
+
+html, head, meta
+
+Semantic html
+
+Sectioning blocks
+
+Body, main, div, section, p, span
+
+A
+
+Strong, em
+
+Ul, ol, dl
+
+Img
+
+H1 * H6
+
+Header, footer, aside, nav, article
+
+Figcaption, figure
+
+Tables
+
+Forms
+
+HTML best practices
 </td>
 <td>
 Create components in react app with HTML elements, make sure your HTML is validated. (tbd)
@@ -166,21 +208,35 @@ Week 5
 Presentation: CSS
 </td>
 <td>
-  * Brief overview of CSS
-  * Cascade/inheritance
-  * Specificity
-  * Inline vs. external
-  * Classes, ids
-  * Box model, margin, padding
-  * Color, background color
-  * Borders
-  * Selectors
-  * Float
-  * Positioning
-  * CSS best practices
-  * CSS modules
-  * Typography overview
-  * Importing fonts
+Brief overview of CSS
+
+Cascade/inheritance
+
+Specificity
+
+Inline vs. external
+
+Classes, ids
+
+Box model, margin, padding
+
+Color, background color
+
+Borders
+
+Selectors
+
+Float
+
+Positioning
+
+CSS best practices
+
+CSS modules
+
+Typography overview
+
+Importing fonts
 </td>
 <td>
 Take the components from week 3 & 4 and style them per requirements, make sure your CSS is validated. (tbd)
@@ -195,12 +251,17 @@ Week 6
 Presentation: Images for web
 </td>
 <td>
-  * GIF
-  * JPG
-  * PNG
-  * What format to use when?
-  * Loss/compression
-  * Background images
+GIF
+
+JPG
+
+PNG
+
+What format to use when?
+
+Loss/compression
+
+Background images
 </td>
 <td>
 Take the page from week 5 and add images per requirements. (tbd)
@@ -215,14 +276,21 @@ Week 7
 Presentation: Responsive & adaptive layouts
 </td>
 <td>
-  * Flexbox, grid
-  * Responsive layouts
-  * Adaptive vs. Responsive
-  * Viewport
-  * Display resolutions
-  * Media queries
-  * Responsive images
-  * Responsive developer tools
+Flexbox, grid
+
+Responsive layouts
+
+Adaptive vs. Responsive
+
+Viewport
+
+Display resolutions
+
+Media queries
+
+Responsive images
+
+Responsive developer tools
 </td>
 <td>
 Take the page from week 6 and make it responsive per requirements. (tbd)
@@ -265,13 +333,19 @@ Week 9
 Testing & performance
 </td>
 <td>
-  * User testing
-  * AB/multivariate testing
-  * Feature flagging
-  * Performance
-  * Network tabs
-  * Lighthouse (Google)
-  * Jest component testing
+User testing
+
+AB/multivariate testing
+
+Feature flagging
+
+Performance
+
+Network tabs
+
+Lighthouse (Google)
+
+Jest component testing
 </td>
 <td>
 Split into teams for team projects
