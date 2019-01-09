@@ -10,6 +10,6 @@
 Explain your choices with principles discussed in lecture
 
 
-2. Fork class git repo
-3. Fork class react app repo
+2. Fork class git repo (https://github.com/aprilbingham-neu/seainfo6150)
+3. Fork class react app repo (https://github.com/aprilbingham-neu/seainfo6150-webapp)
 4. Download IDE/editor for classwork
