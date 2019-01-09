@@ -1,7 +1,11 @@
 # INFO 6150
+
 Instructor: April Bingham
+
 a.bingham@northeastern.edu
+
 206-920-4470
+
 Office hours: Wednesdays, 5-6pm
 
 ## Course objectives
