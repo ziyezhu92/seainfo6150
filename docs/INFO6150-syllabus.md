@@ -421,7 +421,8 @@ Team projects presentations
 </td>
 <td>
 Final presentations of projects from teams
-
+</td>
+<td>
 Final personal writeups due
 </td>
 </tr>
