@@ -6,8 +6,6 @@ a.bingham@northeastern.edu
 
 206-920-4470
 
-Office hours: Wednesdays, 5-6pm
-
 ## Course objectives
 At the end of this course, students will be able to:
 * Identify HTML5/CSS and create a basic page with these languages
