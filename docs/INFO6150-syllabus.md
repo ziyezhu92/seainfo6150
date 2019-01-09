@@ -80,9 +80,9 @@ Send me an email with 4 different websites:
 
 Explain your choices with principles discussed in lecture
 
-Fork class git repo
+Fork class git repo (https://github.com/aprilbingham-neu/seainfo6150)
 
-Fork class react app repo
+Fork class react app repo (https://github.com/aprilbingham-neu/seainfo6150-webapp)
 
 Download IDE for classwork
 </tr>
