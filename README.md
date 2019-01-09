@@ -1,7 +1,7 @@
 # INFO6150
 Class syllabus and class notes can be found in the `docs` directory in this repo.
 
-Repository of notes and in-class practice files.
+Repository of notes and in-class example files.
 
 # Forking class repo and setting upstream remote
 1. Install git: https://git-scm.com/downloads
