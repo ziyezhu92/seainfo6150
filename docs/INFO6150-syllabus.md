@@ -1,10 +1,10 @@
-#INFO 6150
+# INFO 6150
 Instructor: April Bingham
 a.bingham@northeastern.edu
 206-920-4470
 Office hours: Wednesdays, 5-6pm
 
-##Course objectives
+## Course objectives
 At the end of this course, students will be able to:
 - Identify HTML5/CSS and create a basic page with these languages
 - Write valid, well-formed, scalable, and semantically appropriate HTML5 and/or CSS within the context of a React app
@@ -18,10 +18,10 @@ Grades will be based on the following:
 - 15% overall team project result (awarded equally to each participant)
 - 15% individual journal/writeup of personal contribution to team project
 
-##Academic integrity:
+## Academic integrity:
 I expect that, as a student of this class, you will adhere to the academic integrity standards of Northeastern University and that all work on exams and class projects will be your own, unless as part of a team project. Any evidence of copying someone else's work or allowing your own work to be copied by someone else will be used as the basis of a report opened with the Office of Academic Integrity.
 
-##Requirements
+## Requirements
 - No previous knowledge of HTML or CSS necessary
 - Basic knowledge of how to view websites via a browser is helpful
 - Basic knowledge of how to push/pull code from git repo is helpful
@@ -44,7 +44,9 @@ I expect that, as a student of this class, you will adhere to the academic integ
 <tr>
 <td>
 **January 9, 2019**
+
 Week 1
+
 Usability & accessibility
 </td>
 <td>
