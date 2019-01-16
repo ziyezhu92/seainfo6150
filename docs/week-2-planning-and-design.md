@@ -268,17 +268,13 @@
 
       1. Movement
 
-         1. Animation
+         1. Think of movement/animation as a way to guide the user to elements you want them to see in a certain order
 
-         2. Sparkle
+         2. Motion can illustrated processes started/stopped/in progress
 
-            1. https://www.karmaautomotive.com/revero
+         3. Gives tactile experience
 
-         1. Fade in/out of content 
-
-            1. https://www.nytimes.com/
-
-         1. Motion to grab the eye
+            1. Things move when we interact with them in real life
 
       1. Repetition
 
@@ -376,7 +372,7 @@
 
    1. Color theory
 
-      1. https://webflow.com/blog/web-design-101-color-theory
+      1. http://www.tigercolor.com/color-lab/color-theory/color-theory-intro.htm
 
       2. What do I mean by color theory?
 
@@ -394,7 +390,9 @@
 
          3. vary dramatically across cultures and regions, know your culture/audience!
 
-         4. Red
+            1. Examples are primarily US/Western Europe
+
+         1. Red
 
             1. vibrant, aggressive
 
@@ -602,7 +600,7 @@
 
          2. Don't assume colors will signal emotions in and of themselves
 
-            1. consider adding another symbolic element to convey meanting to color blind viewers
+            1. consider adding another symbolic element to convey meaning to color blind viewers
 
          1. Use texture in addition to color to differentiate 
 
@@ -866,13 +864,17 @@
 
    1. Transitional states
 
-      1. Server processes can take time, even with asynchronous requests
+      1. http://michaelsoriano.com/wp-content/uploads/2014/05/ui-mistakes_14.png
 
-      2. Show users that something is happening
+      2. Server processes can take time, even with asynchronous requests
+
+      3. Show users that something is happening
 
          1. Website is still functional and not stuck! 
 
          2. Spinners, progress bars
+
+         3. Animation = usability, grabs attention
 
       1. Notify users as to what's happening
 
@@ -881,6 +883,8 @@
          2. Checklist of steps happening to gauge progress
 
       1. Disable UI until interaction can happen
+
+         1. Use when clicking multiple times could kick off harmful process, eg, clicking twice charges credit card twice
 
    1. I18n
 
@@ -902,12 +906,10 @@
 
          1. Z-scanning, still work rtl?
 
-   1. Accessibility
+   1. Accessibility & usability from week 1
 
-      1. Aspects we talked about last week
+      1. Color contrast
 
-      2. Color contrast
+      2. Large tap areas for mobile
 
-      3. Large tap areas for mobile
-
-      4. Scaleable/flexible UIs on text resize
+      3. Scaleable/flexible UIs on text resize
