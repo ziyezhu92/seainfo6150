@@ -1,4 +1,4 @@
-# INFO6150 Week 1 Assignments
+# INFO6150 Week 2 Assignments
 
 1. Choose a website that evokes a certain “look and feel” (“sophisticated”, “bold”, etc.)
 
