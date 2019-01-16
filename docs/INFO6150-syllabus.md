@@ -120,7 +120,7 @@ Color theory
 Things to consider at the design/planning stage
 </td>
 <td>
-Choose a website that reflects a feeling (“sophisticated”, “bold”, etc.) Email me an explanation of your choice with principles discussed in lecture, a wireframe of the homepage and an outline of the sitemap.
+Choose a website that evokes a certain “look and feel” (“sophisticated”, “bold”, etc.) Email me an explanation of your choice with principles discussed in lecture and a wireframe of the homepage. You can use the http://framebox.org tool demonstrated in class or any other tool you like (Photoshop, Invision, pen and paper, etc.)
 </td>
 </tr>
 <tr>
