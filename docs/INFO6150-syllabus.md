@@ -101,10 +101,6 @@ Product requirements
 
 Navigation
 
-Mobile first philosophy
-
-Progressive enhancement
-
 User flows
 
 Prototypes
