@@ -16,3 +16,6 @@ Article.js must accept 4 props and display all of them when the component is cal
 
 ## use the component
 In src/App.js, import and use the functional component so that it is displayed on the main app page (http://localhost:3000). Don't forget to pass the marked-up text of the article as the component's children prop (enclosed by the Article.js open and closing tag).
+
+## send me an email!
+Send me an email with a link to your github repo
