@@ -130,7 +130,7 @@ HTML & JS with React
 <td>
 Overview of React
 
-Container components
+Class components
 
 Functional components
 
