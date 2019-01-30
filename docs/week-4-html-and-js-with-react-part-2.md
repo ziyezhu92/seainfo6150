@@ -284,7 +284,7 @@
 
          3. might be used for a header cell that titles a group of columns or a side-bar that groups rows of entries.
 
-         4. colspan= and rowspan= are attributes <th> and <td>
+         4. colspan= and rowspan= are attributes th and td
 
          5. The value of either attribute must be a positive integer (a whole number)
 
