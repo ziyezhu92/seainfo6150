@@ -216,7 +216,7 @@
 
          1. self-contained content 
 
-         2. Often with <figcaption> 
+         2. Often with figcaption 
 
          3. typically referenced as a single unit 
 
@@ -224,9 +224,9 @@
 
          5. Can be moved elsewhere without affecting main flow 
 
-         6. <figcaption>  
+         6. figcaption  
 
-            1. caption or legend for the rest of the contents its parent <figure> 
+            1. caption or legend for the rest of the contents its parent figure 
 
    1. Tables 
 
