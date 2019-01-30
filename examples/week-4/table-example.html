@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table example</title>
+    <style media="screen">
+      td { padding: 20px; }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <caption>This is a table</caption>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>April</td>
+          <td>Bingham</td>
+          <td>a.bingham@neu.edu</td>
+        </tr>
+        <tr>
+          <td>Tom</td>
+          <td>Cruise</td>
+          <td>tcruise@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Mickey</td>
+          <td>Mouse</td>
+          <td>mmouse@disney.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <caption>This is a table of numbers</caption>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>3</td>
+          <td>6</td>
+          <td>9</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table border="1">
+      <caption>This is a table with some spans</caption>
+      <tbody>
+        <tr>
+          <td>foo</td>
+          <td>bar</td>
+          <td rowspan="2">baz</td>
+          <td rowspan="3">bleem</td>
+        </tr>
+        <tr>
+          <td rowspan="2">foo</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>bar</td>
+          <td>baz</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

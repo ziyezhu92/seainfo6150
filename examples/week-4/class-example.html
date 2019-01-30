@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Class Example</title>
+    <script type="text/javascript">
+      class Vehicle {
+        constructor(wheels=20, doors=20) {
+          this.wheels = wheels;
+          this.doors = doors;
+        }
+
+        numWheels() {
+          return this.wheels;
+        }
+
+        numDoors() {
+          return this.doors;
+        }
+
+        whatAmI() {
+          console.log(`I am a ${this.constructor.name}.`)
+          console.log(`I have ${this.numWheels()} wheels.`)
+          console.log(`I have ${this.numDoors()} doors.`);
+        }
+      }
+
+      class Car extends Vehicle {
+        constructor(wheels=4, doors=4, color='white') {
+          super(wheels, doors);
+          this.color = color;
+        }
+
+        getColor() {
+          return this.color;
+        }
+
+        whatAmI() {
+          super.whatAmI();
+          console.log(`I am also ${this.getColor()}.`);
+          console.log('Beep beep!');
+          if (this.color === 'red' && this.numDoors() === 2) {
+            console.log('Vroom!');
+          }
+        }
+      }
+
+      class Truck extends Vehicle {
+        constructor() {
+          super(2, 2);
+        }
+
+        whatAmI() {
+          super.whatAmI();
+          console.log('Hoooooonk!');
+        }
+      }
+
+      class Motorcycle extends Vehicle {
+        constructor() {
+          super(2, 0);
+        }
+
+        whatAmI() {
+          console.log('Vroom!');
+        }
+      }
+
+      let vehicle = new Vehicle();
+      vehicle.whatAmI()
+      console.log('******************');
+
+      vehicle = new Vehicle(3, 3);
+      vehicle.whatAmI()
+      console.log('******************');
+
+      let car = new Car();
+      car.whatAmI();
+      console.log('******************');
+
+      let redSportsCar = new Car(4, 2, 'red');
+      redSportsCar.whatAmI();
+      console.log('******************');
+
+      let truck = new Truck();
+      truck.whatAmI();
+      console.log('******************');
+
+      let motorcycle = new Motorcycle();
+      motorcycle.whatAmI();
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
