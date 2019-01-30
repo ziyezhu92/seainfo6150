@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form example</title>
+  </head>
+  <body>
+    <form action="form-example.html" method="post">
+      <fieldset>
+        <label for="alertButton">Alert button</label>
+        <input type="button" id="alertButton" onClick="alert('showing an alert')" value="show alert">
+      </fieldset>
+      <fieldset>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="first-name" value="April">
+      </fieldset>
+      <fieldset>
+        <header>My favorite color</header>
+        <input type="checkbox" id="checkBox1" name="favorite-color" value="blue" onClick="alert('this was clicked')">
+        <label for="checkBox1">Blue</label>
+        <input type="checkbox" id="checkBox2" name="favorite-color" value="red">
+        <label for="checkBox2">Red</label>
+        <input type="checkbox" id="checkBox3" name="favorite-color" value="green">
+        <label for="checkBox3">Green</label>
+      </fieldset>
+      <fieldset>
+        <header>My age</header>
+        <input type="radio" id="radio1" name="age" value="20">
+        <label for="radio1">20</label>
+        <input type="radio" id="radio2" name="age" value="30">
+        <label for="radio2">30</label>
+        <input type="radio" id="radio3" name="age" value="40">
+        <label for="radio3">40</label>
+      </fieldset>
+      <fieldset>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="my-password" value="">
+      </fieldset>
+      <fieldset>
+        <label for="numberInput">Number Input</label>
+        <input type="number" id="numberInput" name="some-number" value="">
+      </fieldset>
+      <fieldset>
+        <label for="telephoneInput">Telephone Input</label>
+        <input type="tel" id="telephoneInput" name="some-telephone-number" value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <span class="note">format: 123-456-7890</span>
+      </fieldset>
+      <fieldset>
+        <label for="rangeInput">Range Input</label>
+        <input type="range" id="rangeInput" name="some-range">
+      </fieldset>
+      <fieldset>
+        <label for="customRangeInput">Range Input</label>
+        <input type="range" id="customRangeInput" name="some-custom-range"
+        min="100" max="200" value="125" steps="50">
+      </fieldset>
+      <fieldset>
+        <label for="disabled">Disabled input</label>
+        <input type="text" id="disabled" name="disabled-first-name" value="April" disabled onClick="alert('clicked April')">
+        <br>
+        <label for="readonly">Readonly input</label>
+        <input type="text" id="readonly" name="readonly-first-name" value="Mickey" readonly onClick="alert('clicked Mickey')">
+        <br>
+        <label for="required">Required input</label>
+        <input type="text" id="required" name="required-first-name" value="Bob" required>
+      </fieldset>
+      <fieldset>
+        <label for="singleSelect">Favorite nonsense word</label>
+        <select id="singleSelect" name="favorite-nonsense-word">
+          <optgroup label="Begins with F">
+            <option value="foo">Foo</option>
+          </optgroup>
+          <optgroup label="Begins with B">
+            <option value="bar">Bar</option>
+            <option value="baz">Baz</option>
+          </optgroup>
+        </select>
+        <br>
+        <label for="multiSelect">Favorite nonsense words</label>
+        <select multiple id="multiSelect" name="favorite-nonsense-words">
+          <option value="foo">Foo</option>
+          <option value="bar">Bar</option>
+          <option value="baz" selected>Baz</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="buttonInput">Clickable button</label>
+        <button type="button" id="buttonInput" name="my-button" onClick="alert('clicked the button')">
+          it's a button
+        </button>
+      </fieldset>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
