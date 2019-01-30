@@ -240,7 +240,7 @@
 
          1. caption/title of a table 
 
-         2. Always comes after <table> (first child) 
+         2. Always comes after table (first child) 
 
       1. Thead 
 
@@ -260,7 +260,7 @@
 
          1. row of cells in a table 
 
-         2. Container for combination of <th> and <td> cells 
+         2. Container for combination of th and td cells 
 
       1. Th 
 
