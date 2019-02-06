@@ -260,6 +260,8 @@ What format to use when?
 Loss/compression
 
 Background images
+
+Border images
 </td>
 <td>
 Take the page from week 5 and add images per requirements. (tbd)
