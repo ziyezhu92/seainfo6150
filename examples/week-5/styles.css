@@ -1,0 +1,41 @@
+.z-index {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.z-index div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+
+#z-index1 {
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+}
+#z-index2 {
+  z-index: 2;
+}

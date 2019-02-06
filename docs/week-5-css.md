@@ -82,6 +82,24 @@
 
       2. Have a higher specificity
 
+   1. Naming
+
+      1. Give your style names (classes & ids) meaningful names that are easy to reuse
+
+      2. Try not to reference how the class/id is styled within the name
+
+         1. Eg. .blue-underline
+
+         2. That may be how it's styled now, but what happens if that changes in the future? 
+
+         3. You don't want your codebase full of .blue-underline that are actually green background colors
+
+         4. Better name might be the purpose, like .content-highlight
+
+            1. Reusable and not tied to specific implementation
+
+            2. Has semantic meaning for people not familiar why the blue underline is used
+
 1\. Styling HTML
 
    1. Stylesheet rule is associated with selector, combination of ids, classes, tags, combinators, etc.
@@ -598,19 +616,9 @@
 
       5. Line: underline, overline, line-through
 
-      6. Eg. green dashed underline
+      6. Eg. text-decoration: green dashed underline
 
-      7. Example + hands on
-
-   1. Text-indent
-
-      1. Separating paragraphs
-
-      2. Indent or margin, not both
-
-      3. No indent after a header
-
-      4. Example + hands on
+      7. Example
 
    1. Transform
 
@@ -630,11 +638,9 @@
 
       3. Quotation marks
 
-      4. Em/en dashes
+      4. https://dev.w3.org/html5/html-author/charref
 
-      5. https://dev.w3.org/html5/html-author/charref
-
-   1. Example + hands on
+   1. Example
 
 1\. Positioning with CSS
 
@@ -666,7 +672,7 @@
 
          3. Element will be nudged in that direction
 
-         4. Example + hands-on
+         4. Example
 
       1. Absolute
 
@@ -680,7 +686,7 @@
 
             1. To make positioning relative to parent, set position: relative on parent
 
-         1. Example + hands-on
+         1. Example
 
       1. Fixed
 
@@ -690,15 +696,7 @@
 
          3. Not affected by scrolling
 
-         4. Example + hands-on
-
-      1. Inherit
-
-         1. Position does not cascade
-
-         2. can be used to force to share positioning of parent
-
-      1. Example + hands-on
+         4. Example
 
    1. Z-index
 
@@ -712,7 +710,7 @@
 
       1. Ie, which one appears as if it is physically closer to you
 
-      2. z-index only affects elements not statically positioned
+      2. z-index only affects elements not statically positioned (ie, position absolute, relative, etc.)
 
       3. Without z-index value
 
@@ -755,8 +753,6 @@
             1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
 
          1. Example
-
-            1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context#The_example
 
 1\. CSS shorthand
 
