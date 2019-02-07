@@ -4,24 +4,85 @@
     <meta charset="utf-8">
     <title>CSS example</title>
     <style media="screen">
-      p { padding: 20px; border: 1px solid black; }
+      p.some-classname { padding: 20px; border: 1px solid black; }
+
+      p {
+        background-color: yellow;
+        color: red;
+        font-style: oblique;
+      }
+      p span {
+        background-color: orange;
+        margin-top: 500px;
+        height: 1000px;
+        display: none;
+      }
 
       .text-decoration-example {
         text-decoration: green dashed underline;
+      }
+
+       #unordered-list {
+         background-color: rgba(255, 0, 0, 1);
+         border-style: solid;
+         border-color: black;
+         border-width: 10px;
+         border-radius: 30px/70px;
+         padding: 50px;
+          list-style-position: outside;
+          font-weight: bold;
+          float: left;
+          display:none;
+       }
+        #unordered-list li {
+          background-color: #ccc;
+        }
+
+        #unordered-list::after {
+          content: 'this comes after the ul';
+        }
+
+       .highlight {
+         font-size: 3em !important;
+       }
+       .important {
+         font-size: 2em;
+       }
+
+      .border-box-example {
+        width: 600px;
+        height: 300px;
+        border: 5px solid #c00;
+        background: #000;
+      }
+
+      .border-box-example div {
+        height: 100px;
+        width: 100%;
+        border: 15px solid #00c;
+        background: #ccc;
+        box-sizing: border-box;
+        padding: 20px;
+
+        position: fixed;
       }
     </style>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <ul>
+    <div class="border-box-example">
+      <div>child box</div>
+    </div>
+
+    <ol id="unordered-list" class="highlight important">
       <li>Foo</li>
       <li>Bar</li>
       <li>Baz</li>
       <li>Bleem</li>
       <li>Bort</li>
-    </ul>
+    </ol>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, pretium eu volutpat at, posuere quis velit. Praesent non elit ac quam vulputate imperdiet. Praesent ipsum nulla, convallis vel sem in, accumsan consequat ex. Mauris molestie augue a justo pretium dapibus. Mauris ultricies velit et tempor maximus. Proin ac elit erat. Nulla facilisi. Nullam rutrum turpis eget nulla cursus, luctus luctus dolor tempus. Quisque sit amet tempus augue. Proin vel risus ac dolor pretium molestie eu vel eros.</p>
+    <p><span>Lorem</span> <span>ipsum</span> dolor sit amet, consectetur adipiscing elit. Mauris est sem, pretium eu volutpat at, posuere quis velit. Praesent non elit ac quam vulputate imperdiet. Praesent ipsum nulla, convallis vel sem in, accumsan consequat ex. Mauris molestie augue a justo pretium dapibus. Mauris ultricies velit et tempor maximus. Proin ac elit erat. Nulla facilisi. Nullam rutrum turpis eget nulla cursus, luctus luctus dolor tempus. Quisque sit amet tempus augue. Proin vel risus ac dolor pretium molestie eu vel eros.</p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, pretium eu volutpat at, posuere quis velit. Praesent non elit ac quam vulputate imperdiet. Praesent ipsum nulla, convallis vel sem in, accumsan consequat ex. Mauris molestie augue a justo pretium dapibus. Mauris ultricies velit et tempor maximus. Proin ac elit erat. Nulla facilisi. Nullam rutrum turpis eget nulla cursus, luctus luctus dolor tempus. Quisque sit amet tempus augue. Proin vel risus ac dolor <span class="text-decoration-example">pretium molestie eu vel eros</span>.</p>
 
