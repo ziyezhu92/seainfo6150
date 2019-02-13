@@ -18,13 +18,15 @@
 
    1. Transform
 
-      1. Takes language specific cases into account
+      1. https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
 
-      2. Capitalize
+      2. Takes language specific cases into account
 
-      3. Uppercase
+      3. Capitalize
 
-      4. lowercase
+      4. Uppercase
+
+      5. lowercase
 
    1. HTML entities
 
@@ -96,7 +98,7 @@
 
    1. Way of collapsing some number of style rules that act on a certain set of values into a single rule  
 
-   2. A value which is not specified is set to its initial value. That sounds anecdotal, but it really means that it overrides previously set values
+   2. A value which is not specified is set to its initial value
 
       1. Eg background-color: red;
 
@@ -167,10 +169,6 @@
                4. fourth value = bottom left 
 
                5. Clockwise from top left
-
-   1. Inherit = take computed value of property from parent element
-
-   2. Initial = apply initial/default value of property
 
 1\. Images for web
 
