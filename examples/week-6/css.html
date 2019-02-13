@@ -51,7 +51,6 @@
         background-color: orange;
         bottom: 40px;
         right: 40px;
-        // orange above everything else
         // z-index: 2;
       }
       .purple {
@@ -66,7 +65,6 @@
       }
       #z-index2 {
         bottom: 60px;
-        // new stacking context
         // z-index: 1;
       }
 
@@ -79,20 +77,20 @@
     <p>"Lorem ipsum dolor sit amet", consectetur adipiscing elit. Duis at ligula eu augue cursus efficitur volutpat vel ligula. Morbi condimentum, odio quis vestibulum rhoncus, nulla tellus scelerisque lorem, eu hendrerit diam odio quis elit.</p>
 
     <p><a href="http://www.google.com">Mauris sollicitudin</a> vestibulum lacinia. Aenean lobortis ex in lacus pellentesque, quis egestas quam posuere. Quisque cursus, nisl quis accumsan porttitor, orci metus vehicula ipsum, at lacinia eros justo eu leo. Etiam egestas nulla et augue varius, non convallis lacus rhoncus. Maecenas erat nisi, tincidunt nec semper id, aliquam vel tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce placerat ipsum eu nunc porttitor pellentesque. Phasellus sit amet dolor sit amet ipsum vulputate pharetra. Donec a ex leo. 'Nullam vel eros vel lacus mattis maximus sit amet vitae dui'.</p>
-    
+
     <div class="entity">
       &numero;
     </div>
     <section id="z-index1" class="z-index">
-      <div class="red"></div>
-      <div class="green"></div>
-      <div class="blue"></div>
+      <div class="red">1</div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
     </section>
 
     <section id="z-index2" class="z-index">
-      <div class="yellow"></div>
-      <div class="orange"></div>
-      <div class="purple"></div>
+      <div class="yellow">4</div>
+      <div class="orange">5</div>
+      <div class="purple">6</div>
     </section>
 
   </body>
