@@ -17,4 +17,4 @@ In the appropriate component, import and use the new `ArticleImage.js` so that e
 Create more styles for your article list components to match <a href="./week-6-list-screenshot.png">this screenshot</a> as closely as possible.
 
 ## send me an email!
-Send me an email with a link to your github repo
+Send an email to me (a.bingham@northeaster.edu) and Sangita (bist.s@husky.neu.edu) with a link to your github repo
