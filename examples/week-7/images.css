@@ -1,0 +1,115 @@
+/* body {
+  background: #ccc;
+}
+
+@media (min-width: 320px) {
+  body {
+    background: #c00;
+  }
+}
+@media (min-width: 500px) {
+  body {
+    background: #0c0;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background: #00c;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+  body {
+    background: #000;
+  }
+} */
+
+@media print {
+  /* print style sheets go here */
+}
+
+body {
+  width: 90%;
+}
+
+#pixel-kitten {
+  width: 100%;
+}
+
+#responsive {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+.responsive-child {
+  flex: 1;
+  background: #c00;
+  color: #fff;
+  margin: 1rem;
+  height: 10rem;
+}
+
+#adaptive {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #000;
+  padding: 1rem;
+  width: 700px;
+}
+
+.adaptive-child {
+  flex: 1;
+  background: #00c;
+  color: #fff;
+  margin: 1rem;
+  height: 10rem;
+}
+
+@media (min-width: 700px) {
+  #adaptive {
+    width: 500px;
+    flex-flow: column wrap;
+  }
+}
+
+#css-resolution-background-image {
+  height: 800px;
+  width: 800px;
+  background-repeat: no-repeat;
+  background-image: -webkit-image-set(
+    url(kitten-1x.jpg) 1x,
+    url(kitten-2x.jpg) 2x
+  );
+  background-image: image-set(
+    url(kitten-1x.jpg) 1x,
+    url(kitten-2x.jpg) 2x
+  );
+}
+
+#css-art-direction-background-image {
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-image: url(http://placekitten.com/200/200);
+}
+
+@media (min-width: 400px) {
+  #css-art-direction-background-image {
+    height: 400px;
+    width: 400px;
+    background-image: url(http://placekitten.com/400/400);
+  }
+}
+
+@media (min-width: 800px) {
+  #css-art-direction-background-image {
+    height: 800px;
+    width: 800px;
+    background-image: url(http://placekitten.com/800/800);
+  }
+}

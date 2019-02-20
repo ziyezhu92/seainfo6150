@@ -326,6 +326,8 @@ No Class
 <td></td>
 <td>
 Spring break, no class this week.
+
+Final versions of week 1-8 assignments due.
 </td>
 </tr>
 <tr>
