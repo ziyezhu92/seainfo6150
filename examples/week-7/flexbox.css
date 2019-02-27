@@ -25,6 +25,7 @@
 #flex2 {
   flex-flow: row wrap;
   justify-content: space-between;
+
 }
 
 #flex2 > div {
