@@ -1,4 +1,4 @@
-1\. Viewport
+1. Viewport
 
    1. Mobile browsers try to optimize experience for user
 
@@ -20,7 +20,7 @@
 
    1. Using meta tag controls the width and scaling of the browser's viewport.
 
-      1. Eg <meta name="viewport" content="width=device-width, initial-scale=1">
+      1. Eg `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
          1. The width property controls the size of the viewport
 
@@ -64,7 +64,7 @@
 
             2. Best practice: don't set these
 
-1\. CSS media queries
+1. CSS media queries
 
    1. Definition
 
@@ -84,7 +84,7 @@
 
    1. What does a media query look like? 
 
-      1. Eg @media (min-width: 800px) { /* styles go here */ }
+      1. Eg `@media (min-width: 800px) { /* styles go here */ }`
 
       2. A media query computes to true when the media type (if specified) matches the device on which a document is being displayed and all media feature expressions compute as true
 
@@ -226,7 +226,7 @@
 
       1. HTML solutions -- same resolution
 
-         1. Eg  <img srcset="foo.jpg 400w, bar.jpg 600w, baz.jpg 800w" sizes="(max-width: 320px) 280px, (max-width: 600px) 440px, 800px" src="baz.jpg" alt="This is an image">
+         1. Eg  `<img srcset="foo.jpg 400w, bar.jpg 600w, baz.jpg 800w" sizes="(max-width: 320px) 280px, (max-width: 600px) 440px, 800px" src="baz.jpg" alt="This is an image">`
 
             1. Srcset
 
@@ -260,7 +260,7 @@
 
       1. HTML solutions -- different resolutions (eg, retina vs. standard)
 
-         1. Eg  <img srcset="foo.jpg 1x, bar.jpg 1.5x, baz.jpg 2x" src="baz.jpg" alt="This is an image">
+         1. Eg  `<img srcset="foo.jpg 1x, bar.jpg 1.5x, baz.jpg 2x" src="baz.jpg" alt="This is an image">`
 
             1. Srcset
 
@@ -288,7 +288,7 @@
 
       3. HTML solutions
 
-         1. Eg <picture><source media="(max-width: 799px)" srcset="foo-cropped-one-way.jpg"><source media="(max-width: 1200px)" srcset="foo-cropped-another-way.jpg"><img src="foo.jpg" alt="This is a picture"></picture>
+         1. Eg `<picture><source media="(max-width: 799px)" srcset="foo-cropped-one-way.jpg"><source media="(max-width: 1200px)" srcset="foo-cropped-another-way.jpg"><img src="foo.jpg" alt="This is a picture"></picture>`
 
             1. Source
 
@@ -300,7 +300,7 @@
 
                1. Srcset: same as above (could have comma separated list)
 
-               2. Eg <source media="(max-width: 799px)" srcset="foo-cropped-one-way.jpg">
+               2. Eg `<source media="(max-width: 799px)" srcset="foo-cropped-one-way.jpg">`
 
             1. Img
 
