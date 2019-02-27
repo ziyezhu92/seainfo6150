@@ -4,7 +4,7 @@
 
 .flex-container {
   display: flex;
-  width: 50rem;
+  /* width: 50rem; */
   height: 50rem;
   border: 1px solid #000;
 }
@@ -18,38 +18,27 @@
 
 #flex1 {
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
-#flex2 {
-  flex-flow: row wrap;
-  justify-content: space-between;
+#box1 {
+  order: 5;
+  align-self: center;
+  flex: 0 1 20rem;
 }
-
-#flex2 > div {
-  width: 20%;
-}
-
-#flex3 {
-  align-items: center;
-}
-
-#flex3 > div {
-  height: 20rem;
-  width: 20%;
-}
-
 #box2 {
-  display: flex;
-  flex-flow: row nowrap;
-  /* align-content: flex-end; */
-  align-items: center;
-  padding: 0;
+  order: 3;
+  flex-grow: 5;
 }
-
-#box2 div {
-  background: #eee;
-  border: 1px solid #ccc;
-  padding: 1rem 0;
+#box3 {
+  order: 4;
+  flex-grow: 2;
+}
+#box4 {
+  order: 2;
+  flex-grow: 1;
+}
+#box5 {
+  order: 1;
 }
