@@ -2,15 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1">
-    <title>Week 7: Images example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week 8: Images example</title>
     <link rel="stylesheet" href="images.css">
   </head>
   <body>
     <main>
       <!-- begin images -->
-      <!-- <img id="firefox" src="firefox.svg" alt="firefox logo"> -->
-      <!-- <img id="pixel-kitten" src="http://placekitten.com/100/100" alt="pixelated kitten"> -->
+      <div id="firefox-wrapper">
+        <img id="firefox" src="firefox.svg" alt="firefox logo">
+      </div>
+      <div id="kitten-wrapper">
+        <img id="kitten" src="http://placekitten.com/200/200" alt="kitten picture">
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-contain">
+        <p>This is a kitten with <code>background-size: contain</code>.</p>
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-cover">
+        <p>This is a kitten with <code>background-size: cover</code>.</p>
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-100">
+        <p>This is a kitten with <code>background-size: 100% 100%</code>.</p>
+      </div>
       <!-- end images -->
 
       <!-- begin responsive -->
@@ -72,7 +85,7 @@
 
       <!-- begin background images -->
       <!-- <section id="css-resolution-background-image"></section> -->
-      <section id="css-art-direction-background-image"></section>
+      <!-- <section id="css-art-direction-background-image"></section> -->
       <!-- end background images -->
     </main>
   </body>

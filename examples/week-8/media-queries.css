@@ -23,18 +23,6 @@
   }
 } */
 
-@media print {
-  /* print style sheets go here */
-}
-
-body {
-  width: 90%;
-}
-
-#pixel-kitten {
-  width: 100%;
-}
-
 #responsive {
   display: flex;
   flex-flow: row wrap;
@@ -74,42 +62,5 @@ body {
   #adaptive {
     width: 500px;
     flex-flow: column wrap;
-  }
-}
-
-#css-resolution-background-image {
-  height: 800px;
-  width: 800px;
-  background-repeat: no-repeat;
-  background-image: -webkit-image-set(
-    url(kitten-1x.jpg) 1x,
-    url(kitten-2x.jpg) 2x
-  );
-  background-image: image-set(
-    url(kitten-1x.jpg) 1x,
-    url(kitten-2x.jpg) 2x
-  );
-}
-
-#css-art-direction-background-image {
-  height: 200px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-image: url(http://placekitten.com/200/200);
-}
-
-@media (min-width: 400px) {
-  #css-art-direction-background-image {
-    height: 400px;
-    width: 400px;
-    background-image: url(http://placekitten.com/400/400);
-  }
-}
-
-@media (min-width: 800px) {
-  #css-art-direction-background-image {
-    height: 800px;
-    width: 800px;
-    background-image: url(http://placekitten.com/800/800);
   }
 }
