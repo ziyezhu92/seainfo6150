@@ -384,7 +384,7 @@ Team projects, week 2
 Project work
 </td>
 <td>
-User testing and refine designs based on results
+Project implementation
 </td>
 </tr>
 <tr>
@@ -414,7 +414,7 @@ Team projects, week 4
 Project work
 </td>
 <td>
-Project implementation
+User testing and refine website based on results
 </td>
 </tr>
 <tr>
