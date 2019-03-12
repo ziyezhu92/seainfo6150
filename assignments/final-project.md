@@ -1,3 +1,4 @@
+# SEA INFO-6150 Final Project
 
 We work for a small business named **Vehiclr** that offers certain kinds of vehicles that can be bought online and personalized with a number of options.
 
