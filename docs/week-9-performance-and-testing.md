@@ -10,7 +10,7 @@
 
       3. Eg. if you write a helper function
 
-         1. Function sum(a,b) { return a+b; }
+         1. `Function sum(a,b) { return a+b; }`
 
       1. You'd want to test to make sure the return of the function 
 
