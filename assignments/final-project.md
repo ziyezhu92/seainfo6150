@@ -76,6 +76,8 @@ Projects will be evaluated on a 0-100 scale for each of 5 sections. Each section
 ### HTML
 The HTML for your website must be semantically correct and valid to the best of your ability. I will be validating the site with the W3 HTML Validator (http://validator.w3.org).
 
+**You are encouraged to make any changes you wish to the HTML and components here. I am happy to help you modify components to make sure the routing and logic continue to function properly.**
+
 ## Schedule
 
 ### Week 9, March 13
